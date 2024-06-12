@@ -1,5 +1,7 @@
+contexttimer
 decord; platform_system != "Darwin" 
 eva-decord; platform_system == "Darwin"
+diffusers<=0.16.0
 einops>=0.4.1
 fairscale==0.4.4
 ftfy
@@ -23,7 +25,7 @@ timm==0.4.12
 torch>=1.10.0
 torchvision
 tqdm
-transformers==4.33.2
+transformers==4.25.0
 webdataset
 wheel
 torchaudio
@@ -31,7 +33,6 @@ soundfile
 moviepy
 nltk
 peft
-
 easydict==1.9
 pyyaml_env_tag==0.1
 open3d
